@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>React App</title>
+  </head>
+  <body>
+    <div class="App">
+        <header class="App-header">
+    
+        <div class='navbar'>
+            <h1 class='company'>Bynamo Engineering</h1>
+            <div class="nav-links">
+              <h4 class='action' onClick={handleScroll}>Home</h4>
+              <h4 class='action' onClick={handleScroll}>Products</h4>
+              <h4 class='action' onClick={handleScroll}>Contact us</h4>
+            </div>
+        </div>
+
+        <span>
+            <div class="main">
+                <img src="{% static 'control_panel.jpg' %}" alt="My image"  class="main_image" alt = "myimage">
+                
+                <p class="image-text">Empowering Control, Simplifying Systems
+                <h1>Transforming Ideas into Reality</h1>
+                </p>
+            </div>
+    
+            <div class="products">
+                <h1 class="our_product">Our Products</h1>
+                <div class="component">
+                <img src="{% static 'control_panel.jpg' %}" alt="My image"  class="product_image" alt = "myimage">
+                <p class="product_text">An ozone generator is a device that produces ozone, a toxic gas made of three oxygen atoms (O3), as a way to purify air or water: Air purification Ozone generators are marketed as odor removers and air purifiers, but they are ineffective at removing particles, biological contaminants, and chemical pollutants. Ozone generators can also create additional toxic pollutants and may not even remove odors unless they produce very high ozone levels.</p> 
+                </div>
+    
+            </div>
+            
+            <div class="products2">
+                <div class="component">
+                <img src="{% static 'control_panel.jpg' %}" alt="My image"  class="product_image" alt = "myimage">
+                <p class="product_text">An ozone generator is a device that produces ozone, a toxic gas made of three oxygen atoms (O3), as a way to purify air or water: Air purification Ozone generators are marketed as odor removers and air purifiers, but they are ineffective at removing particles, biological contaminants, and chemical pollutants. Ozone generators can also create additional toxic pollutants and may not even remove odors unless they produce very high ozone levels.</p> 
+                </div>
+    
+            </div>
+            <div class="products2">
+                <div class="component">
+                <img src="{% static 'control_panel.jpg' %}" alt="My image"  class="product_image" alt = "myimage">
+                <p class="product_text">An ozone generator is a device that produces ozone, a toxic gas made of three oxygen atoms (O3), as a way to purify air or water: Air purification Ozone generators are marketed as odor removers and air purifiers, but they are ineffective at removing particles, biological contaminants, and chemical pollutants. Ozone generators can also create additional toxic pollutants and may not even remove odors unless they produce very high ozone levels.</p> 
+                </div>
+    
+            </div>
+            </span>
+            <a
+            class="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          </a>
+        </header>
+    </div>
+  </body>
+</html>
